@@ -9,13 +9,14 @@
   "author": "Bruno Pistone",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
     "grunt": "^1.0.1",
     "grunt-cli": "1.2.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-less": "^1.0.0",
     "grunt-contrib-uglify": "^3.3.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "vue-cli": "^2.9.2"
+    "grunt-contrib-watch": "^1.0.0"
   }
 }
