@@ -5,11 +5,6 @@ define(function(require) {
 
 	Vue.component("leftbar", {
 		template : template,
-		data() {
-			return {
-				isVisible : true
-			};
-		},
 		methods : {
 			scrollMeTo(refName) {
 				var reqId = "#"+refName;

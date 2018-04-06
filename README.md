@@ -13,6 +13,6 @@ This repository contains a web application using vue framework realized using re
 <div>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png" width="64px"/>
     <br>
-    Vue.js is used as main Frontend framework, project was bootstraped using `vue-cli` and using Vue.js version `2.5.2`
+    Vue.js is used as main Frontend framework, using Vue.js version `2.5.16`
 </div>
 <hr/>
