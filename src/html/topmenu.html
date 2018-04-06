@@ -1,0 +1,21 @@
+<div class="responsive-navigation">
+    <a class="menu-toggle-btn" @click="showHide()">
+    	<i class="fa fa-bars fa-2x"></i>
+    </a>
+    <div class="navigation responsive-menu" :class="{ showdropdown: navmenu }">
+        <ul>
+            <li class="about">
+                <a @click="scrollMeTo('about')">ABOUT ME</a>
+            </li>
+            <li class="skills">
+                <a @click="scrollMeTo('skills')">SKILLS</a>
+            </li>
+            <li class="portfolio">
+                <a @click="scrollMeTo('resume')">RESUME</a>
+            </li>
+            <li class="contact">
+                <a @click="scrollMeTo('contact')">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+</div>

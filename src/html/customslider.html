@@ -1,0 +1,13 @@
+<div class="slider-content">
+    <slider animation="fade">
+        <slider-item v-for="(image, index) in list" :key="index">
+            <div class="image-container">
+                <img class="mySlides" :src="image.src">
+                <div class="centered">
+                    <h2>{{image.title}}</h2>
+                    <p>{{image.content}}</p>
+                </div>
+            </div>
+        </slider-item>
+    </slider>
+</div>

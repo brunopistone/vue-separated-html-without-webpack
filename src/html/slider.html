@@ -1,0 +1,14 @@
+<div :style="{ width: width, height: height }" class="slider">
+    <div class="items">
+        <slot></slot>
+    </div>
+    <div class="indicators indi-center" @click.stop v-if="indicators">
+        <span :key="i" :class="{ 'slider-indicator-active': nowItemIndex === i - 1 }" @click="indicatorHandle(i - 1)" v-for="i in childrenLength" class="slider-indicator-icon"></span>
+    </div>
+    <button @click.stop="prev" v-if="controlBtn" class="btn btn-left">
+        <i class="slider-icon slider-icon-left"></i>
+    </button>
+    <button @click.stop="next" v-if="controlBtn" class="btn btn-right">
+        <i class="slider-icon slider-icon-right"></i>
+    </button>
+</div>

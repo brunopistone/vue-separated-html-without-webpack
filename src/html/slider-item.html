@@ -1,0 +1,7 @@
+<div class="slider-item" v-if="show" @click="onClick">
+    <transition :css="false" @beforeEnter="beforeEnter" @enter="enter" @leave="leave">
+        <div class="wrap" v-if="animate">
+            <slot></slot>
+        </div>
+    </transition>
+</div>
